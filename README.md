@@ -25,18 +25,18 @@ Browse namespaces and functions/variables:
 
 ![Definitions browser](https://pbs.twimg.com/media/ES68ScLUEAAiW3Z?format=png&name=large)
 
-### Usages
+# lulc_py
 
-![npm CLI of calcit-editor](https://img.shields.io/npm/v/calcit-editor.svg)
+![npm CLI of lulc_py](https://img.shields.io/npm/v/lulc_py.svg)
 
 Install CLI and start a local WebSocket server, it uses `calcit.cirru` as a snapshot file:
 
 ```bash
-npm i -g calcit-editor
-calcit-editor
+npm i -g lulc_py
+lulc_py
 ```
 
-UI of the editor is a webapp on http://calcit-editor.cirru.org/?port=6001
+UI of the editor is a webapp on http://lulc_py.cirru.org/?port=6001
 
 You may try with my project templates:
 
@@ -45,20 +45,20 @@ You may try with my project templates:
 
 or even clone current repo for trying out.
 
-Don't forget to check out [keyboard shortcuts](https://github.com/Cirru/calcit-editor/wiki/Keyboard-Shortcuts). My old [introduction videos](https://www.youtube.com/watch?v=u5Eb_6KYGsA&t) can be found on YouTube.
+Don't forget to check out [keyboard shortcuts](https://github.com/Cirru/lulc_py/wiki/Keyboard-Shortcuts). My old [introduction videos](https://www.youtube.com/watch?v=u5Eb_6KYGsA&t) can be found on YouTube.
 
 ### Options
 
 CLI variables for compiling code directly from `calcit.cirru`:
 
 ```bash
-op=compile calcit-editor
+op=compile lulc_py
 ```
 
 The web UI takes several query options:
 
 ```
-http://calcit-editor.cirru.org/?host=localhost&port=6001
+http://lulc_py.cirru.org/?host=localhost&port=6001
 ```
 
 * `port`, defaults to `6001`
@@ -78,7 +78,7 @@ Editor UI is decoupled with WebSocket server, so it's okay to connect remote ser
 Also there's a local version of web editor to enable:
 
 ```bash
-ui=local calcit-editor
+ui=local lulc_py
 # serving UI at http://localhost:6101
 ```
 
