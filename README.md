@@ -25,7 +25,7 @@ Browse namespaces and functions/variables:
 
 ![Definitions browser](https://pbs.twimg.com/media/ES68ScLUEAAiW3Z?format=png&name=large)
 
-# simpletemplates
+# DiogoCaetanoSistemas
 
 ![npm CLI of lulc_py](https://img.shields.io/npm/v/lulc_py.svg)
 
